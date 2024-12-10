@@ -1,0 +1,12 @@
+cabal-version:      3.4
+name:               lib
+version:            0.1.0.0
+
+library 
+    default-language: Haskell2010
+    hs-source-dirs:   ./
+    exposed-modules:  Lib.Parametric,Lib.Prolude
+    build-depends:    base,random,directory,split,random-shuffle
+
+
+
